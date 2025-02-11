@@ -1,0 +1,71 @@
+{
+    "org": "CUInSpace",
+    "rocket": "Red Ballistic",
+    "version": "0.6.0-DEV",
+    "status": {
+        "mission": {
+            "name": "",
+            "epoch": -1,
+            "state": 0,
+            "recording": false
+        },
+        "serial": {
+            "available_ports": ["COM1", "test"]
+        },
+        "rn2483_radio": {
+            "connected": false,
+            "connected_port": "",
+            "snr": 0
+        },
+        "rocket": {
+            "mission_time": 246246,
+            "sd_driver_state": 2,
+            "deployment_state": 0,
+            "blocks_recorded": 1216,
+            "checkouts_missed": 3
+        },
+        "replay": {
+            "state": -1,
+            "speed": 1.0,
+            "mission_list": [
+                {"name": "TestData", "length": 188, "version": 1}
+            ]
+        }
+    },
+    "telemetry": {
+        "last_mission_time": 15392,
+        "altitude": {
+            "mission_time": [3285, 9138, 11312],
+            "metres": [400, 482, 537],
+            "feet": [1312.0, 1581.0, 1761.4]
+        },
+        "temperature": {
+            "mission_time": [231, 3721, 7120],
+            "celsius": [23.90, 23.98, 24.10]
+        },
+        "pressure": {
+            "mission_time": [3271, 6931, 9312],
+            "pascals": [87181, 88340, 89600]
+        },
+        "velocity": {
+            "mission_time": [3271, 11243, 15392],
+            "x": [12.46, 10.32, 8.61],
+            "y": [49.91, 60.23, 83.96],
+            "z": [60.43, 98.12, 143.21]
+        },
+        "humidity": {
+            "mission_time": [3475, 4832, 6083],
+            "percentage": [64, 69, 73]
+        },
+        "gnss": {
+            "mission_time": [8391],
+            "latitude": [44.906938],
+            "longitude": [-76.26802]
+        },
+        "sats_in_use": {
+            "mission_time": [721, 4391],
+            "gps": [[2, 5, 10, 13], [2, 5, 10, 13, 15, 18, 23, 24, 27]],
+            "glonass": [[69, 70], [69, 70, 79, 85]]
+        }
+    }
+}
